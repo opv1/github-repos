@@ -6,7 +6,7 @@ export const Navbar = () => (
     <div className='navbar-brand'>Github Поиск</div>
     <ul className='navbar-nav'>
       <li className='nav-item'>
-        <NavLink className='nav-link' to='/' exact>
+        <NavLink className='nav-link' to='/github-repo/' exact>
           Главная
         </NavLink>
       </li>
