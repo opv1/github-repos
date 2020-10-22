@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "GitHub React",
   "private": true,
-  "homepage": "https://opv1.github.io/github-app-vm/",
+  "homepage": "https://opv1.github.io/github-app-vm-react/",
   "dependencies": {
     "axios": "^0.20.0",
     "bootstrap": "^4.5.3",
