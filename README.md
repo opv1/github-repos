@@ -10,9 +10,13 @@
 Проект написан по обучающему материалу от Владилена Минина:
 [Udemy](https://www.udemy.com/course/react-2020-complete-guide/)
 
-## [Увидеть проект](https://opv1.github.io/github-repo/)
+## [Увидеть проект](https://opv1.github.io/github-app-vm/)
 
 ## Настройка проекта
+
+```
+npm run build
+```
 
 ```
 npm run start

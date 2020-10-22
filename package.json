@@ -1,8 +1,9 @@
 {
-  "name": "react-hooks",
-  "version": "0.1.0",
+  "name": "github-app-vm",
+  "version": "1.0.0",
+  "description": "GitHub React",
   "private": true,
-  "homepage": "https://opv1.github.io/github-repo/",
+  "homepage": "https://opv1.github.io/github-app-vm/",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
