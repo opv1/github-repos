@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Card = ({ user }) => (
   <div className='card'>
@@ -8,10 +8,10 @@ export const Card = ({ user }) => (
       <h5 className='card-title'>{user.login}</h5>
       <Link
         className='btn btn-primary'
-        to={'/github-app-vm-react/profile/' + user.login}
+        to={'/github-vm-react/profile/' + user.login}
       >
         Открыть
       </Link>
     </div>
   </div>
-);
+)

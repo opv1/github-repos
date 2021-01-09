@@ -1,14 +1,14 @@
-import React, { useReducer } from 'react';
-import axios from 'axios';
-import { GithubContext } from './githubContext';
-import { githubReducer } from './githubReducer';
+import React, { useReducer } from 'react'
+import axios from 'axios'
+import { GithubContext } from './githubContext'
+import { githubReducer } from './githubReducer'
 import {
   GET_REPOS,
   GET_USER,
   SEARCH_USERS,
   CLEAR_USERS,
   SET_LOADING,
-} from '../types';
+} from '../types'
 
 export const GithubState = ({ children }) => {
   const initialState = {
@@ -16,52 +16,52 @@ export const GithubState = ({ children }) => {
     users: [],
     loading: false,
     repos: [],
-  };
+  }
 
-  const [state, dispatch] = useReducer(githubReducer, initialState);
+  const [state, dispatch] = useReducer(githubReducer, initialState)
 
   const getRepos = async (name) => {
-    setLoading();
+    setLoading()
 
     const response = await axios.get(
       `https://api.github.com/users/${name}/repos?per_page=5&`
-    );
+    )
 
     dispatch({
       type: GET_REPOS,
       payload: response.data,
-    });
-  };
+    })
+  }
 
   const getUser = async (name) => {
-    setLoading();
+    setLoading()
 
-    const response = await axios.get(`https://api.github.com/users/${name}?`);
+    const response = await axios.get(`https://api.github.com/users/${name}?`)
 
     dispatch({
       type: GET_USER,
       payload: response.data,
-    });
-  };
+    })
+  }
 
   const search = async (value) => {
-    setLoading();
+    setLoading()
 
     const response = await axios.get(
       `https://api.github.com/search/users?q=${value}&`
-    );
+    )
 
     dispatch({
       type: SEARCH_USERS,
       payload: response.data.items,
-    });
-  };
+    })
+  }
 
-  const clearUsers = () => dispatch({ type: CLEAR_USERS });
+  const clearUsers = () => dispatch({ type: CLEAR_USERS })
 
-  const setLoading = () => dispatch({ type: SET_LOADING });
+  const setLoading = () => dispatch({ type: SET_LOADING })
 
-  const { user, users, repos, loading } = state;
+  const { user, users, repos, loading } = state
 
   return (
     <GithubContext.Provider
@@ -79,5 +79,5 @@ export const GithubState = ({ children }) => {
     >
       {children}
     </GithubContext.Provider>
-  );
-};
+  )
+}

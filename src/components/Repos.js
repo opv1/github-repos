@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 export const Repos = ({ repos }) => (
   <React.Fragment>
@@ -14,4 +14,4 @@ export const Repos = ({ repos }) => (
       </div>
     ))}
   </React.Fragment>
-);
+)

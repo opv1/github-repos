@@ -4,7 +4,7 @@ import {
   SEARCH_USERS,
   CLEAR_USERS,
   SET_LOADING,
-} from '../types';
+} from '../types'
 
 const handlers = {
   [GET_REPOS]: (state, { payload }) => ({
@@ -25,10 +25,10 @@ const handlers = {
   [CLEAR_USERS]: (state) => ({ ...state, users: [] }),
   [SET_LOADING]: (state) => ({ ...state, loading: true }),
   DEFAULT: (state) => state,
-};
+}
 
 export const githubReducer = (state, action) => {
-  const handler = handlers[action.type] || handlers.DEFAULT;
+  const handler = handlers[action.type] || handlers.DEFAULT
 
-  return handler(state, action);
-};
+  return handler(state, action)
+}

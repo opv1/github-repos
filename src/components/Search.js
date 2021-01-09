@@ -1,26 +1,26 @@
-import React, { useContext, useState } from 'react';
-import { GithubContext } from '../context/github/githubContext';
-import { AlertContext } from '../context/alert/alertContext';
+import React, { useContext, useState } from 'react'
+import { GithubContext } from '../context/github/githubContext'
+import { AlertContext } from '../context/alert/alertContext'
 
 export const Search = () => {
-  const [value, setValue] = useState('');
-  const github = useContext(GithubContext);
-  const alert = useContext(AlertContext);
+  const [value, setValue] = useState('')
+  const github = useContext(GithubContext)
+  const alert = useContext(AlertContext)
 
   const onSubmit = (event) => {
     if (event.key !== 'Enter') {
-      return;
+      return
     }
 
-    github.clearUsers();
+    github.clearUsers()
 
     if (value.trim()) {
-      alert.hide();
-      github.search(value.trim());
+      alert.hide()
+      github.search(value.trim())
     } else {
-      alert.show('Введите данные пользователя!');
+      alert.show('Введите данные пользователя!')
     }
-  };
+  }
 
   return (
     <div className='form-group'>
@@ -33,5 +33,5 @@ export const Search = () => {
         placeholder='Введите ник пользователя...'
       />
     </div>
-  );
-};
+  )
+}

@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
-import { Search } from '../components/Search';
-import { Card } from '../components/Card';
-import { GithubContext } from '../context/github/githubContext';
+import React, { useContext } from 'react'
+import { Search } from '../components/Search'
+import { Card } from '../components/Card'
+import { GithubContext } from '../context/github/githubContext'
 
 export const Home = () => {
-  const { users, loading } = useContext(GithubContext);
+  const { users, loading } = useContext(GithubContext)
 
   return (
     <React.Fragment>
@@ -21,5 +21,5 @@ export const Home = () => {
         )}
       </div>
     </React.Fragment>
-  );
-};
+  )
+}

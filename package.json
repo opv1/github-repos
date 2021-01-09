@@ -1,18 +1,18 @@
 {
-  "name": "github-app-vm-react",
-  "version": "1.0.0",
+  "name": "github-vm-react",
+  "version": "0.1.0",
   "description": "GitHub React",
   "private": true,
-  "homepage": "https://opv1.github.io/github-app-vm-react/",
+  "homepage": "https://opv1.github.io/github-vm-react/",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "gh-pages": "^3.1.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^4.8.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.4"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "stylelint": "^13.7.2",
+    "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
     "stylelint-order": "^4.1.0",

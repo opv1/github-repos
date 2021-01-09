@@ -1,20 +1,20 @@
-import React, { useContext, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Repos } from '../components/Repos';
-import { GithubContext } from '../context/github/githubContext';
+import React, { useContext, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { Repos } from '../components/Repos'
+import { GithubContext } from '../context/github/githubContext'
 
 export const Profile = ({ match }) => {
-  const { getRepos, getUser, user, repos, loading } = useContext(GithubContext);
-  const urlName = match.params.name;
+  const { getRepos, getUser, user, repos, loading } = useContext(GithubContext)
+  const urlName = match.params.name
 
   useEffect(() => {
-    getRepos(urlName);
-    getUser(urlName);
+    getRepos(urlName)
+    getUser(urlName)
     // eslint-disable-next-line
-  }, []);
+  }, [])
 
   if (loading) {
-    return <p className='text-center'>Загрузка...</p>;
+    return <p className='text-center'>Загрузка...</p>
   }
 
   const {
@@ -30,11 +30,11 @@ export const Profile = ({ match }) => {
     following,
     public_repos,
     public_gists,
-  } = user;
+  } = user
 
   return (
     <React.Fragment>
-      <Link to='/github-app-vm-react/' className='btn btn-link'>
+      <Link to='/github-vm-react/' className='btn btn-link'>
         На главную
       </Link>
       <div className='card mb-4'>
@@ -102,5 +102,5 @@ export const Profile = ({ match }) => {
       </div>
       <Repos repos={repos} />
     </React.Fragment>
-  );
-};
+  )
+}
