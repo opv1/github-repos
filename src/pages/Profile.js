@@ -34,7 +34,7 @@ export const Profile = ({ match }) => {
 
   return (
     <React.Fragment>
-      <Link to='/' className='btn btn-link'>
+      <Link to='/github-repos-vm/' className='btn btn-link'>
         На главную
       </Link>
       <div className='card mb-4'>

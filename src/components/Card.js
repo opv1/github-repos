@@ -6,7 +6,10 @@ export const Card = ({ user }) => (
     <img className='card-img-top' src={user.avatar_url} alt={user.login} />
     <div className='card-body'>
       <h5 className='card-title'>{user.login}</h5>
-      <Link className='btn btn-primary' to={'/profile/' + user.login}>
+      <Link
+        className='btn btn-primary'
+        to={'/github-repos-vm/profile/' + user.login}
+      >
         Открыть
       </Link>
     </div>

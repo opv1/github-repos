@@ -3,15 +3,15 @@ import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => (
   <nav className='navbar navbar-dark bg-primary navbar-expand-lg'>
-    <div className='navbar-brand'>Github Поиск</div>
+    <div className='navbar-brand'>GitHub Поиск</div>
     <ul className='navbar-nav'>
       <li className='nav-item'>
-        <NavLink className='nav-link' to='/' exact>
+        <NavLink className='nav-link' to='/github-repos-vm/' exact>
           Главная
         </NavLink>
       </li>
       <li className='nav-item'>
-        <NavLink className='nav-link' to='/about'>
+        <NavLink className='nav-link' to='/github-repos-vm/about'>
           Информация
         </NavLink>
       </li>

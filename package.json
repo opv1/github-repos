@@ -1,9 +1,8 @@
 {
-  "name": "github-vm",
+  "name": "github-repos-vm",
   "version": "0.1.0",
-  "description": "GitHub",
   "private": true,
-  "homepage": "https://opv1.github.io/github-vm/",
+  "homepage": "https://opv1.github.io/github-repos-vm/",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
