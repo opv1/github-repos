@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github-vm-react/static/css/main.c5b98623.chunk.css",
-    "main.js": "/github-vm-react/static/js/main.bda7bc1f.chunk.js",
-    "main.js.map": "/github-vm-react/static/js/main.bda7bc1f.chunk.js.map",
-    "runtime-main.js": "/github-vm-react/static/js/runtime-main.13b9f3f5.js",
-    "runtime-main.js.map": "/github-vm-react/static/js/runtime-main.13b9f3f5.js.map",
-    "static/js/2.226a7f88.chunk.js": "/github-vm-react/static/js/2.226a7f88.chunk.js",
-    "static/js/2.226a7f88.chunk.js.map": "/github-vm-react/static/js/2.226a7f88.chunk.js.map",
-    "index.html": "/github-vm-react/index.html",
-    "static/css/main.c5b98623.chunk.css.map": "/github-vm-react/static/css/main.c5b98623.chunk.css.map",
-    "static/js/2.226a7f88.chunk.js.LICENSE.txt": "/github-vm-react/static/js/2.226a7f88.chunk.js.LICENSE.txt"
+    "main.css": "/github-vm/static/css/main.8d19c2f4.chunk.css",
+    "main.js": "/github-vm/static/js/main.53e46f5e.chunk.js",
+    "main.js.map": "/github-vm/static/js/main.53e46f5e.chunk.js.map",
+    "runtime-main.js": "/github-vm/static/js/runtime-main.73555800.js",
+    "runtime-main.js.map": "/github-vm/static/js/runtime-main.73555800.js.map",
+    "static/js/2.3bb1cccd.chunk.js": "/github-vm/static/js/2.3bb1cccd.chunk.js",
+    "static/js/2.3bb1cccd.chunk.js.map": "/github-vm/static/js/2.3bb1cccd.chunk.js.map",
+    "index.html": "/github-vm/index.html",
+    "static/css/main.8d19c2f4.chunk.css.map": "/github-vm/static/css/main.8d19c2f4.chunk.css.map",
+    "static/js/2.3bb1cccd.chunk.js.LICENSE.txt": "/github-vm/static/js/2.3bb1cccd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.13b9f3f5.js",
-    "static/js/2.226a7f88.chunk.js",
-    "static/css/main.c5b98623.chunk.css",
-    "static/js/main.bda7bc1f.chunk.js"
+    "static/js/runtime-main.73555800.js",
+    "static/js/2.3bb1cccd.chunk.js",
+    "static/css/main.8d19c2f4.chunk.css",
+    "static/js/main.53e46f5e.chunk.js"
   ]
 }
