@@ -7,7 +7,7 @@
 
 Stack: React
 
-## [See the project](https://opv1.github.io/github-repos-vm/)
+## [See the project](https://opv1.github.io/github-repos/)
 
 ## Setup
 
