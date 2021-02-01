@@ -6,12 +6,12 @@ export const Navbar = () => (
     <div className='navbar-brand'>GitHub Поиск</div>
     <ul className='navbar-nav'>
       <li className='nav-item'>
-        <NavLink className='nav-link' to='/github-repos-vm/' exact>
+        <NavLink className='nav-link' to='/github-repos/' exact>
           Главная
         </NavLink>
       </li>
       <li className='nav-item'>
-        <NavLink className='nav-link' to='/github-repos-vm/about'>
+        <NavLink className='nav-link' to='/github-repos/about'>
           Информация
         </NavLink>
       </li>

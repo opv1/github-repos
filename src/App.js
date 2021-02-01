@@ -17,12 +17,9 @@ function App() {
           <div className='container pt-4'>
             <Alert />
             <Switch>
-              <Route path='/github-repos-vm/' exact component={Home} />
-              <Route path='/github-repos-vm/about' component={About} />
-              <Route
-                path='/github-repos-vm/profile/:name'
-                component={Profile}
-              />
+              <Route path='/github-repos/' exact component={Home} />
+              <Route path='/github-repos/about' component={About} />
+              <Route path='/github-repos/profile/:name' component={Profile} />
             </Switch>
           </div>
         </BrowserRouter>

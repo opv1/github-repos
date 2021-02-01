@@ -8,7 +8,7 @@ export const Card = ({ user }) => (
       <h5 className='card-title'>{user.login}</h5>
       <Link
         className='btn btn-primary'
-        to={'/github-repos-vm/profile/' + user.login}
+        to={'/github-repos/profile/' + user.login}
       >
         Открыть
       </Link>
